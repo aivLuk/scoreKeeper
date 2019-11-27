@@ -1,0 +1,38 @@
+.winner {
+  color: orange;
+  transition: all 0.7s;
+}
+
+h1 {
+  background: white;
+}
+
+body {
+  background: steelblue;
+  text-align: center;
+  position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: auto 0px;
+}
+
+div {
+  background: silver;
+  border: 3px solid black;
+  margin-bottom: 20px;
+  width: 300px;
+  text-align: center;
+  position: absolute;
+  top: 100px;
+  right: 520px;
+}
+
+button {
+  background: none;
+  border: none;
+  transition: all 0.8s;
+}
+
+button:hover {
+  background: silver;
+  color: white;
+}
